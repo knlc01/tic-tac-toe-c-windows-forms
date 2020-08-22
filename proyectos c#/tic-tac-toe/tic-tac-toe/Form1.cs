@@ -40,7 +40,7 @@ namespace tic_tac_toe
                 tb_principal.Text = tb_principal.Text + "Turno de jugador " + jugador + "\r\n";
                 turnos = turnos + 1;
             }
-            if (turnos == 10 && !gano)
+            if (turnos == 9 && !gano)
             {
                 MessageBox.Show("empate", "fin del juego");
             }
